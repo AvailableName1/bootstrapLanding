@@ -1,0 +1,31 @@
+$padding-left: 0.5%;
+$padding-right: 0.5%;
+
+.top,
+.footer {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+
+.footer {
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.list-group-item {
+    max-width: 18rem;
+}
+
+.email-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.email-link:hover {
+    cursor: pointer;
+}

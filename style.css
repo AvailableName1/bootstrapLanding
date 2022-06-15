@@ -1,0 +1,33 @@
+.top,
+.footer {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.list-group-item {
+  max-width: 18rem;
+}
+
+.email-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.email-link:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
